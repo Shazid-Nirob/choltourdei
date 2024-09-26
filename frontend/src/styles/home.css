@@ -1,24 +1,14 @@
 :root {
-   --primary-color     : #ff7e01;
-   --secondary-color   : #faa935;
-   --heading-color     : #0b2727;
-   --text-color        : #6e7074;
+   --primary-color     : #ff8000;
+   --secondary-color   : #f7a738;
+   --heading-color     : #0d3030;
+   --text-color        : #707174;
    --font-name         : "Montserrat", sans-serif;
    --subtitle-font-name: "Island Moments", cursive;
 }
 
-.hero__subtitle img {
-   width : 2.3rem;
-   height: 2.3rem;
-}
 
-.hero__content h1 {
-   font-size    : 2.5rem;
-   font-weight  : 600;
-   margin-top   : 1rem;
-   margin-bottom: 2rem;
-   color        : var(--heading-color);
-}
+
 
 .hero__content h1 .hightlight {
    color: var(--secondary-color);
@@ -165,4 +155,20 @@
    .experience__content h2 {
       font-size: 1.5rem;
    }
+}
+
+
+
+.hero__subtitle img {
+   width : 2.3rem;
+   height: 2.3rem;
+}
+
+
+.hero__content h1 {
+   font-size    : 2.5rem;
+   font-weight  : 600;
+   margin-top   : 1rem;
+   margin-bottom: 2rem;
+   color        : var(--heading-color);
 }

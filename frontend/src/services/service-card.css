@@ -1,10 +1,23 @@
 .service__item {
-   padding      : 1rem;
-   border-bottom: 1px solid #faa83586;
-   border-right : 1px solid #faa83586;
-   border-radius: 0.5rem;
+   padding      : 1.1rem;
+   border-bottom: 1px solid #f1a02e86;
+   border-right : 1px solid #faa63186;
+   border-radius: 0.6rem;
+}
+.service__item p {
+   font-size: 0.8rem;
+   color    : var(--text-color);
 }
 
+
+.service__img img {
+   width: 100%;
+}
+
+.service__item h6 {
+   font-size  : 1.1rem;
+   font-weight: 500;
+}
 .service__img {
    width          : 50px;
    height         : 50px;
@@ -18,19 +31,8 @@
    line-height    : 50px;
 }
 
-.service__img img {
-   width: 100%;
-}
 
-.service__item h6 {
-   font-size  : 1.1rem;
-   font-weight: 500;
-}
 
-.service__item p {
-   font-size: 0.8rem;
-   color    : var(--text-color);
-}
 
 /* =============== RESPONSIVE ================ */
 @media only screen and (max-width:992px) {
